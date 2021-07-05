@@ -1,7 +1,80 @@
 body{
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 20px;
 }
 .orange-color{
     color: orange;
+}
+.coding-love{
+    padding-left: 10%;
+    width: 50%;
+}
+.coding-love-img{
+    width: 95%;
+}
+.display-flex{
+    display: flex;
+    margin-bottom:100px;
+}
+.top-bg{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.button-style{
+    text-decoration: none;
+    background-image: linear-gradient(blue, cyan);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.dream-bg{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.exp-bg{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.dream-padding{
+    padding-right: 8%;
+}
+.box-shadow{
+    box-shadow: 5px 7px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+}
+#web-design{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, lightsalmon);
+    border-image-slice: 1;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(green, cyan);
+    border-image-slice: 1;
+}
+.heading-padding{
+    padding-left: 5%;
+}
+.cirle-image-style{
+    width: 80%;
+    padding-top: 5%;
+}
+.bottom-border{
+    border-bottom: 7px solid;
+    border-image: linear-gradient(maroon, orange);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
